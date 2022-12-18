@@ -138,6 +138,12 @@ def trip_duration_stats(df):
 
     print("total travel time: ",total_travel_time)
 
+    # TO DO: display min travel time-------------
+    min_travel_time = df['Trip Duration'].min()
+
+    print("min travel time: ",min_travel_time)
+
+
     # TO DO: display mean travel time
     mean_travel_time=df["Trip Duration"].mean()
     print("mean travel time : ",mean_travel_time)
